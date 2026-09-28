@@ -1,0 +1,25 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 40px;
+  background-color: #222;
+}
+
+.navigation a {
+  padding: 8px 14px;
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.navigation a:hover {
+  background-color: #444;
+}
+
+.navigation a.active {
+  background-color: #fff;
+  color: #222;
+  font-weight: 600;
+}
